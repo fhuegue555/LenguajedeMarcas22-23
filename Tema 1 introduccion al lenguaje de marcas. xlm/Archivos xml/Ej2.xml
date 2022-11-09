@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCTYPE Libro SYSTEM "Ej2.dtd">
+<Libro LibroCatalogo="Cat50">
+    <Titulo>El-senor-de-los-anillos</Titulo>
+    <Seccion>Rol</Seccion>
+    <SubSeccion>Fantasia</SubSeccion>
+    <Contenido>
+        <Capitulo>Cap1</Capitulo>
+    </Contenido>
+    <Capitulo >Tema</Capitulo>
+</Libro>
