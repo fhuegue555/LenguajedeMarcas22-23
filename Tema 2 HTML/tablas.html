@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <!---Tabla simple-->
+    <table style="background-color:grey ;">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Pepe</td>
+            <td>Perez</td>
+            <td>Aqui</td>
+            <td>Telefono</td>
+            <td>yosoy@Pepe.es</td>
+        </tr>
+        <tr>
+            <td>Manuel</td>
+            <td>Lopez</td>
+            <td>Alli</td>
+            <td>Telefono</td>
+            <td>yosoy@Manuel.es</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Fernando</td>
+            <td>Mas alla</td>
+            <td>Telefono</td>
+            <td>yosoy@Maria.es</td>
+        </tr>
+        <tr>
+            <td>Sara</td>
+            <td>Gallardo</td>
+            <td>Mas Aqui</td>
+            <td>Telefono</td>
+            <td>yosoy@Sara.es</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table style="background-color:green ; border:1px solid white">
+        <caption style="border: 1px dashed red">Alumnos matriculados</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Direccion</th>
+                <th>Telefono</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pepe</td>
+                <td>Perez</td>
+                <td>Aqui</td>
+                <td>Telefono</td>
+                <td>email</td>
+            </tr>
+            <tr>
+                <td>Manuel</td>
+                <td>Lopez</td>
+                <td>Alli</td>
+                <td>Telefono</td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Fernando</td>
+                <td>Mas alla</td>
+                <td>Telefono</td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Sara</td>
+                <td>Gallardo</td>
+                <td>Mas aqui</td>
+                <td>Tellefono</td>
+                <td>Email</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pie de tabla para que se vea como crece</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <table>
+        <caption>Horario de clase</caption>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <td rowspan="2">Matematicas</td>
+                <td>Lengua</td>
+                <td>Ingles</td>
+                <td colspan="2">Ciencias</td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td colspan="5" div>RECREO</td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>Ingles</td>
+                <td rowspan="2">Ciencias</td>
+                <td>Matematicas</td>
+                <td>Lengua</td>
+                <td>Historia</td>
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td>Historia</td>
+                <td>Ciencias</td>
+                <td>Matematicas</td>
+                <td>Ingles</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
